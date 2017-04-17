@@ -50,6 +50,9 @@ Get the sources of the uws.chat server [here](https://github.com/uWebSockets/web
 
 *Benchmarks are run with default settings in all libraries, except for `ws` which is run with the native performance addons. Read more about the benchmarks [here](benchmarks).*
 
+## Perfect for WebRTC
+Distributed WebRTC networks typically employ WebSockets for peer signalling. Since every single peer in the entire distributed network requires a persistent connection to the signalling server at all times, only a scalable WebSocket server will do.
+
 ## Getting started
 #### Dependencies
 First of all you need to install the required dependencies. This is very easily done with a good open source package manager like [Homebrew](http://brew.sh) for OS X, [vcpkg](https://github.com/Microsoft/vcpkg) for Windows or your native Linux package manager.
